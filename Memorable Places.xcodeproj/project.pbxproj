@@ -14,6 +14,7 @@
 		0440606D1CF4B9610030B685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0440606B1CF4B9610030B685 /* LaunchScreen.storyboard */; };
 		044060751CF4BF1C0030B685 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044060741CF4BF1C0030B685 /* CoreLocation.framework */; };
 		044060771CF61B0A0030B685 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044060761CF61B0A0030B685 /* TableViewController.swift */; };
+		0445F6EB1D1425AE00E54E94 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0445F6EA1D1425AE00E54E94 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0440606E1CF4B9610030B685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044060741CF4BF1C0030B685 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		044060761CF61B0A0030B685 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+		0445F6EA1D1425AE00E54E94 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		044060561CF4B9610030B685 = {
 			isa = PBXGroup;
 			children = (
+				0445F6EA1D1425AE00E54E94 /* .gitignore */,
 				044060741CF4BF1C0030B685 /* CoreLocation.framework */,
 				044060611CF4B9610030B685 /* Memorable Places */,
 				044060601CF4B9610030B685 /* Products */,
@@ -129,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0445F6EB1D1425AE00E54E94 /* .gitignore in Resources */,
 				0440606D1CF4B9610030B685 /* LaunchScreen.storyboard in Resources */,
 				0440606A1CF4B9610030B685 /* Assets.xcassets in Resources */,
 				044060681CF4B9610030B685 /* Main.storyboard in Resources */,
@@ -294,6 +298,7 @@
 				044060731CF4B9610030B685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
